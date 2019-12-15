@@ -1,8 +1,8 @@
 {
-  "name": "array-shuffle",
+  "name": "arrandomize",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/yoannduc/Array-Shuffle.git",
+  "repository": "https://github.com/yoannduc/arrandomize.git",
   "author": "yoannduc <dev.yoannduc@gmail.com>",
   "license": "MIT"
 }
