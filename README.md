@@ -1,31 +1,31 @@
-# Array Shuffle
+# Arrandomize
 
-This package provides a function that shuffles a copy of an array.
+This package provides a function that randomize items in a copy of an array.
 
 ## Installation
 
 ```bash
-npm i -s array-shuffle
+npm i -s arrandomize
 ```
 
 ## Usage
 
-Simple use the `shuffle` function with an array:
+Simple use the `arrandomize` function with an array:
 
 ```js
-const shuffle = require('array-shuffle')
+const arrandomize = require('arrandomize')
 
-console.log(shuffle([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]))
+console.log(arrandomize([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]))
 // => returns [ 8, 4, 0, 9, 6, 2, 3, 5, 7, 1 ]
 ```
 
-Or you can add `shuffle` function to the Array prototype for simplicity:
+Or you can add `arrandomize` function to the Array prototype for simplicity:
 
 ```js
-const shuffle = require('array-shuffle')
+const arrandomize = require('arrandomize')
 
-Array.prototype.shuffle = function() {
-  return shuffle(this)
+Array.prototype.shuffle = function shuffle() {
+  return arrandomize(this)
 }
 
 console.log([0, 1, 2, 3, 4, 5, 6, 7, 8, 9].shuffle())
@@ -34,17 +34,17 @@ console.log([0, 1, 2, 3, 4, 5, 6, 7, 8, 9].shuffle())
 
 ## API
 
-### shuffle(array)
+### arrandomize(array)
 
-Randomizes the order of the elements in a given array. This function does not mutate the original array, it returns a shuffled copy of the array.
+Randomizes the order of the elements in a given array. This function does not mutate the original array, it returns a randomized copy of the array.
 
 #### Parameters
 
-- `array`: The array to shuffle.
+- `array`: The array to randomize.
 
 #### Return value
 
-A shuffled copy of the arry.
+A randomized copy of the arry.
 
 #### Exceptions
 
