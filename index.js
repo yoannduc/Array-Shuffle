@@ -1,19 +1,4 @@
-// Array.prototype.shuffle = function shuffle() {
-//   const shuffled = [...this]
-
-//   let temp
-//   let j
-//   let i = shuffled.length
-
-//   while (--i) {
-//     j = ~~(Math.random() * (i + 1))
-//     temp = shuffled[i]
-//     shuffled[i] = shuffled[j]
-//     shuffled[j] = temp
-//   }
-
-//   return shuffled
-// }
+'use strict'
 
 module.exports = function shuffle(array) {
   if (!Array.isArray(array)) {
