@@ -34,13 +34,13 @@ console.log([0, 1, 2, 3, 4, 5, 6, 7, 8, 9].shuffle())
 
 ## API
 
-### shuffle(arr)
+### shuffle(array)
 
 Randomizes the order of the elements in a given array. This function does not mutate the original array, it returns a shuffled copy of the array.
 
 #### Parameters
 
-- `arr`: The array to shuffle.
+- `array`: The array to shuffle.
 
 #### Return value
 
@@ -48,7 +48,7 @@ A shuffled copy of the arry.
 
 #### Exceptions
 
-Thows an `Error` ("Not an array") when `arr` is not an array.
+Thows an `Error` ("Not an array") when `array` is not an array.
 
 ## License
 

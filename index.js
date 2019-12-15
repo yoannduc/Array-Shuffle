@@ -1,5 +1,10 @@
 'use strict'
 
+/**
+ * Randomize the order of the elements in a given array
+ * @param  {Array} array  The array to shuffle
+ * @return {Array}        The shuffled copy of the array
+ */
 module.exports = function shuffle(array) {
   if (!Array.isArray(array)) {
     throw new Error('Not an array')
