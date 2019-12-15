@@ -1,6 +1,6 @@
 # Array Shuffle
 
-This package provides a function that shuffles the inputed array.
+This package provides a function that shuffles a copy of an array.
 
 ## Installation
 
@@ -19,7 +19,7 @@ console.log(shuffle([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]))
 // => returns [ 8, 4, 0, 9, 6, 2, 3, 5, 7, 1 ]
 ```
 
-Or you can add to Array prototype for simplicity:
+Or you can add `shuffle` function to the Array prototype for simplicity:
 
 ```js
 const shuffle = require('array-shuffle')
