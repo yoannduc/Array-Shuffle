@@ -1,4 +1,4 @@
-# Arrandomize
+# arrandomize
 
 This package provides a function that randomize items in a copy of an array.
 
